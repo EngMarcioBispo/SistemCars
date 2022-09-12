@@ -14,7 +14,7 @@
 ● Lista de veiculos. Obs.: os dados deverão ser recuperados dos recursos rest definidos na aplicação backend
 
 
-## Divisões da Branch no Githab:
+## Divisões da Branch no Github:
 
  - Main = Contemplando todos os projetos
  - FrontEnd - Angular
