@@ -13,7 +13,7 @@ import { MatSnackBar } from "@angular/material/snack-bar";
 })
 export class CarsService {
 
-  baseUrl = "https://api-cars-new.herokuapp.com/cars";
+  baseUrl = "https://api-cars-new.herokuapp.com/";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
