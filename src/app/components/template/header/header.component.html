@@ -1,17 +1,16 @@
 <mat-toolbar class="header mat-elevation-z4">
-  <span>
-    <a routerLink="/">
-      <img src="" alt="">
-    </a>
-  </span>
-
-  <span class="title-group">
-    <a routerLink="{{routeUrl}}">
+  <span class="sidenavp">
+    <a mat-list-item routerLink="/">
       <i class="material-icons">
-        {{icon}}
+          home
       </i>
-      {{title}}
-    </a>
-
+      <a class="a-text">Início</a>
+      </a>
+      <a mat-list-item  routerLink="/cars" >
+        <i class="material-icons">
+          directions_car
+        </i>
+        <a class="a-text">Cadastro</a>
+      </a>
   </span>
 </mat-toolbar>

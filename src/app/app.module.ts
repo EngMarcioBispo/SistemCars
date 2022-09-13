@@ -28,7 +28,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { CarUpdateComponent } from './components/cars/car-update/car-update.component';
 import { CarDeleteComponent } from './components/cars/car-delete/car-delete.component';
-
+import { FlexLayoutModule } from '@angular/flex-layout'
 
 @NgModule({
   declarations: [
@@ -59,7 +59,8 @@ import { CarDeleteComponent } from './components/cars/car-delete/car-delete.comp
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

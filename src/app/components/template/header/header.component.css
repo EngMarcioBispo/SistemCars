@@ -1,20 +1,17 @@
 .header{
-  display: flex;
-  align-items: center;
   background-color: #fbbb00;
 }
 
-.header a {
-  display: flex;
-  align-items: center;
+.header a{
+  display: table-cell;
   text-decoration: none;
-  color: #000;
+  padding-right: 10px;
+  color: #fff;
 }
 
-.header .title-group{
-  padding-left: 25px;
+.header a.a-text {
+  position: relative;
+  top: -5px;
+  padding: 5px;
 }
 
-.header .title-group i {
-  padding-right: 5px;
-}
