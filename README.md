@@ -18,7 +18,7 @@
 
  - Main = Contemplando todos os projetos
  - FrontEnd - Angular
- - BackEnd - Node.js
+ - BackEnd - Nodejs
 
 
 ## Link da API Node.JS https://api-cars-new.herokuapp.com/cars
